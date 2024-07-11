@@ -12,16 +12,16 @@ public class Select : MonoBehaviour
 
     private void Update()
     {
-        tmp.text = "누군가의 최고기록: "+PlayerPrefs.GetInt("Highest")+"회";
+        tmp.text = "누군가의 최고기록: "+PlayerPrefs.GetFloat("Highest")+"cps";
     }
 
     public void GameStrat()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
     public void ResetPlayerClicks()
     {
-        PlayerPrefs.SetInt("Highest",0);
+        PlayerPrefs.SetFloat("Highest",0);
     }
     public void GameEnd()
     {
