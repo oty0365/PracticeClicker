@@ -11,6 +11,11 @@ public class Selection : MonoBehaviour
         
     }
 
+    public void Zero()
+    {
+        PlayerPrefs.SetInt("ClickMode",2);
+        SceneManager.LoadScene(1);
+    }
     public void First()
     {
         PlayerPrefs.SetInt("ClickMode",3);

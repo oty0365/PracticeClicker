@@ -27,7 +27,7 @@ public class Game : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)&&!isGamming)
+        if (Input.GetMouseButtonDown(0)&&!isGamming)
         {
             spacetoplay.SetActive(false);
             pannel.SetActive(false);
@@ -41,7 +41,7 @@ public class Game : MonoBehaviour
     {
         isGamming = true;
         clicks = 0;
-        for (float i = PlayerPrefs.GetInt("ClickMode"); i > 0 ; i-=Time.deltaTime)
+        for (float i = PlayerPrefs.GetInt("ClickMode"); i > 0.9 ; i-=Time.deltaTime)
         {
             clicker.text = clicks.ToString();
             tmp.text = ((int)i).ToString();
