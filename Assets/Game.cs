@@ -66,7 +66,7 @@ public class Game : MonoBehaviour
     IEnumerator OnSuccessFlow()
     {
         pannel.SetActive(true);
-        handler.text = "당신의 cps(" + clicks/(PlayerPrefs.GetInt("ClickMode")-1) + ")는 최고기록에 도달하여 최고기록이 갱신됩니다!";
+        handler.text = "Your cps(" + clicks/(PlayerPrefs.GetInt("ClickMode")-1) + ")is now the highest!";
         yield return new WaitForSeconds(4f);
         SceneManager.LoadScene(0);
     }
@@ -74,7 +74,7 @@ public class Game : MonoBehaviour
     IEnumerator OnFailFlow()
     {
         pannel.SetActive(true);
-        handler.text = "당신의 cps(" + clicks/(PlayerPrefs.GetInt("ClickMode")-1) + ")는 최고기록에 도달하지 못했습니다..";
+        handler.text = "Your cps(" + clicks/(PlayerPrefs.GetInt("ClickMode")-1) + ")didn't reached the hightest..";
         yield return new WaitForSeconds(4f);
         SceneManager.LoadScene(0);
     }

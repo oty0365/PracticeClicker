@@ -290,7 +290,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -15.694214, y: 103.93469}
+  m_AnchoredPosition: {x: -32, y: 104}
   m_SizeDelta: {x: 605.7584, y: 100.906494}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &477433463
@@ -313,7 +313,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uC774\uC81C "
+  m_text: 'now '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c84e4a37e5f938441a7c00e02cabcac9, type: 2}
   m_sharedMaterial: {fileID: 3927625531888938704, guid: c84e4a37e5f938441a7c00e02cabcac9, type: 2}
@@ -539,7 +539,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uD074\uB9AD\uD558\uC5EC \uC2DC\uC791"
+  m_text: Clik To Start
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c84e4a37e5f938441a7c00e02cabcac9, type: 2}
   m_sharedMaterial: {fileID: 3927625531888938704, guid: c84e4a37e5f938441a7c00e02cabcac9, type: 2}
@@ -602,7 +602,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -73.04938, y: 0, z: -68.64343, w: -76.44708}
+  m_margin: {x: -73.04938, y: 0, z: -119.1947, w: -76.44708}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -771,7 +771,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 237.30579, y: 103.93469}
+  m_AnchoredPosition: {x: 322, y: 102}
   m_SizeDelta: {x: 605.7584, y: 100.906494}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1297935845
@@ -794,7 +794,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uCD08 \uB0A8\uC558\uC2B5\uB2C8\uB2E4!"
+  m_text: seconds you have!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c84e4a37e5f938441a7c00e02cabcac9, type: 2}
   m_sharedMaterial: {fileID: 3927625531888938704, guid: c84e4a37e5f938441a7c00e02cabcac9, type: 2}

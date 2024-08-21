@@ -12,7 +12,7 @@ public class Select : MonoBehaviour
 
     private void Update()
     {
-        tmp.text = "누군가의 최고기록: "+PlayerPrefs.GetFloat("Highest")+"cps";
+        tmp.text = "Your Highest CPS: "+PlayerPrefs.GetFloat("Highest")+"cps";
     }
 
     public void GameStrat()
